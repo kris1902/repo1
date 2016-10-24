@@ -2,6 +2,7 @@ from math import sqrt
 from IBeBack import *
 
 def srednia(lista):
+	"""isrednia"""
 	if type(lista) != list:
 		raise IBeBack
 	suma=0.0

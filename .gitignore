@@ -1,2 +1,3 @@
 *.pyc
-*.~		"""program sprawdzający poprawnsc typu wprowadzanych danych"""
+*.~
+!myerror.pyc		"""program sprawdzający poprawnsc typu wprowadzanych danych"""
