@@ -11,6 +11,7 @@ def srednia(lista):
 		suma+=i**2
 	return sqrt((suma/len(lista)))
 
+
 def srednia_ar(lista):
 	"srednia arytmetyczna"
 	i=0
