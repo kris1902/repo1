@@ -6,7 +6,12 @@ class input_tekstu():
 	def liczenie(self, nazwa):
 		"""Funkcja do zliaczania slow o danej dlugosci"""
 		dane=open(nazwa+".txt").read()
+		dane.replace(",","")
+		dane.replace(".","")
+		dane.replace(";","")
+		dane.replace(":","")
 		podziel=dane.split(" ")
+
 		for i in podziel:
 			self.lista[len(i)-1]+=1
 		print self.lista
