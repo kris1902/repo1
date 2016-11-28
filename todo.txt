@@ -1,1 +1,3 @@
-sternia atytmetyczna
+- Dodac obsluge wiekszej ilosci znakow
+- Zmienic sposob wyswietlania
+- Dodac wysylanie wynikow do pliku
