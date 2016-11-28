@@ -11,4 +11,4 @@ class input_tekstu():
 
 if __name__=="__main__":
 	it=input_tekstu()
-	it.liczenie(plik.txt)
+	it.liczenie(plik)
