@@ -10,8 +10,9 @@ class input_tekstu():
 		dane.replace(".","")
 		dane.replace(";","")
 		dane.replace(":","")
+#		dane.replace("\n"," ")
 		podziel=dane.split(" ")
-
+		print podziel
 		for i in podziel:
 			self.lista[len(i)-1]+=1
 		print self.lista

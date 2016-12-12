@@ -1,0 +1,11 @@
+class input_tekstu();
+	def __init__(self):
+		pass
+#self.lista=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+	def liczenie(self, nazwa):
+		dane=open(nazwa+".txt").read()
+		podziel=dane.split(" ")
+		slowa={}
+		for i in podziel:
+			slowa[len(i)]= dic
