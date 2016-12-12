@@ -11,10 +11,14 @@ class input_tekstu():
 		dane=dane.replace(";","")
 		dane=dane.replace(":","")
 		dane=dane.replace("\n"," ")
+		dane=dane.replace("!", "")
 		podziel=dane.split(" ")
 		print podziel
 		for i in podziel:
-			self.lista[len(i)-1]+=1
+			if len(i)-1==(-1):
+				pass
+			else:
+				self.lista[len(i)-1]+=1
 		print self.lista
 		return self.lista
 
