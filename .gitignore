@@ -1,3 +1,4 @@
 *.pyc
 *.~
 !myerror.pyc		"""program sprawdzający poprawnsc typu wprowadzanych danych"""
+*.save
